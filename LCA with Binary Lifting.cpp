@@ -53,7 +53,7 @@ int get_lca(int a, int b)
             a = up[a][j];
             b = up[b][j];
         }
-        }
+    }
     return up[a][0];
 }
 int main()
